@@ -1,0 +1,101 @@
+nav {
+    display: flex;           /* 开启弹性布局，让子元素默认横向排列 */
+    justify-content: center; /* 让所有按钮在页面水平居中 */
+    gap: 30px;               /* 按钮之间的间距 */
+    padding: 10px;           /* 导航栏的上下内边距 */
+    background-color: #f4f4f4; /* 加个浅灰色背景，方便你看位置 */
+}
+
+nav a {
+    text-decoration: none;    /* 去掉下划线 */
+    color: black;             /* 将文字颜色改为黑色（或者任何你喜欢的颜色） */
+}
+
+nav a:hover {
+    color: #FFFFFF;           /* 比如滑过时变成橙色 */
+    background-color: #0000008C;  /* 悬停时背景变深 */
+    border-radius: 100px 
+}  
+
+h1 {
+    text-align: center;
+    margin-top: 5px;      /* 顺便加点顶部间距，让它别紧贴着导航栏 */
+    color: #333;           /* 设置一个舒服的深灰色 */
+}
+
+h1 {
+    font-size: 15px;  /* 大标题 */
+    letter-spacing: 50px;
+}
+
+div.newsitem {
+	background: #edf4f2;
+	border: solid 1px #31473a;
+	padding: 16px;
+	margin: 8px;
+	border-radius: 16px;
+}
+
+div.header {
+	background-color: #333333;
+}
+
+div.content {
+	margin: 16px auto;
+	width: 80%;
+}
+
+div.footer {
+	font-size: 12px;
+	padding: 40px;
+	background: #2a2a2a;
+	color: white;
+	text-align: center;
+}
+
+span.date {
+	color: #31473a;
+	font-weight: bold;
+	font-style: italic;
+}
+
+table {
+	border: solid 1px #31473a;
+	border-collapse: collapse;
+    /* 上下边距设为 20px（调整位置），左右设为 auto（实现居中） */
+    margin: 50px auto;
+}
+tbody > tr:nth-of-type(odd) {
+	background: #edf4f2;
+}
+td {
+	padding-right: 16px;
+}
+
+img {
+    max-width: 100%;  /* 图片宽度最大不会超过它的父容器 */
+	width: 200px;
+    height: auto;     /* 高度自动缩放，防止图片变形 */
+    display: block;   /* 将图片转为块级元素 */
+    margin: 20px auto; /* 让图片在页面中水平居中 */
+    border-radius: 10px; /* 给图片加一点圆角，更漂亮 */
+}
+
+footer {
+    background-color: #f4f4f4; /* 深灰色背景 */
+    color: rgb(0, 0, 0);              /* 文字设为白色 */
+    text-align: center;        /* 文字居中 */
+    padding: 10px;           /* 上下留出 30px 的呼吸空间 */
+    margin-top: 50px;          /* 让页脚和上方的内容保持距离 */
+    width: 100%;
+}
+
+footer a {
+    color: #000000;            /* 页脚里的链接颜色 */
+    text-decoration: none;     /* 去掉下划线 */
+    font-size: 0.9em;
+}
+
+footer a:hover {
+    text-decoration: underline; /* 鼠标悬停时显示下划线 */
+}
